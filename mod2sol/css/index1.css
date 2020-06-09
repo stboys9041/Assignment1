@@ -1,6 +1,183 @@
-h1{
-    color: blueviolet;
-}
 *{
-    background-color: burlywood;
+    box-sizing: border-box;
+}
+
+@media (min-width:992px){
+    section{
+        border: 1px solid black;
+    padding: 59px 5px;
+    margin:-36px 20px;
+    
+    }
+    .prince{
+        background-color: #bdbdff
+    }
+    .container{
+       
+        display: flex;
+        flex-direction: row;
+    }
+    h1{
+        text-align: center;
+    }
+    #hi{
+        background-color: green;
+        border: 1px solid black;
+        width: 37%;
+        float: right;
+        margin: -60px -6px;
+        padding: 13px 34px;
+    }
+    #why{
+        background-color: greenyellow;
+        border: 1px solid black;
+        width: 37%;
+        float: right;
+        margin: -60px -6px;
+        padding: 13px 34px;
+    }
+    #bye{
+        background-color: hotpink;
+        border:1px solid black;
+        width: 37%;
+        float: right;
+        margin: -60px -6px;
+        padding: 13px 34px;
+    }
+    p{
+        margin: 2px 2px;
+        padding: 2px 2px;
+    }
+    h1{
+        display: block;
+        margin: 73px auto;
+        width: 50%;
+    }
+}
+@media (max-width:991px) and (min-width:768px){
+    section{
+        border: 1px solid black;
+    padding: 59px 5px;
+    margin: -36px 20px;
+    
+    }
+    .prince{
+        background-color: #bdbdff
+    }
+
+    .container{
+       
+        float: left;
+    }
+    #id1{
+        float: left;
+        width: 47%;
+    }
+    #id2{
+        float: right;
+        width: 47%;
+        margin: -35px 16px 55px -23px;
+    }
+    #id3{
+        float: left;
+    }
+    h1{
+        text-align: center;
+    }
+    #hi{
+        background-color: green;
+        border: 1px solid black;
+        width: 37%;
+        text-align: center;
+        float: right;
+        margin: -60px -6px;
+        padding: 13px 34px;
+    }
+    #why{
+        text-align: center;
+        background-color: greenyellow;
+        border: 1px solid black;
+        width: 37%;
+        float: right;
+        margin: -60px -6px;
+        padding: 13px 34px;
+    }
+    #bye{
+        text-align: center;
+        background-color: hotpink;
+        border:1px solid black;
+        width: 18%;
+        float: right;
+        margin: -60px -6px;
+        padding: 13px 34px;
+    }
+    p{
+        margin: 2px 2px;
+        padding: 2px 2px;
+    }
+    h1{
+        display: block;
+        margin: 73px auto;
+        width: 50%;
+    }
+    #kumar{
+        display: float;
+        float: left;
+    }
+}
+@media (max-width:767px){
+    section{
+        align-items: stretch;
+        border: 1px solid black;
+    padding: 59px 5px;
+    margin: 8px 20px;
+    
+    }
+    .prince{
+        background-color: #bdbdff
+    }
+    .container{
+       
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        text-align: center;
+    }
+    #hi{
+        text-align: center;
+        background-color: green;
+        border: 1px solid black;
+        width: 44%;
+        margin: -60px -6px;
+        padding: 13px 34px;
+        float: right;
+    }
+    #why{
+        text-align: center;
+        background-color: greenyellow;
+        border: 1px solid black;
+        width: 44%;
+        margin: -60px -6px;
+        padding: 13px 34px;
+        float: right;
+    }
+    #bye{
+        background-color: hotpink;
+        border:1px solid black;
+        width: 44%;
+        float: right;
+        text-align: center;
+        margin: -60px -6px;
+        padding: 13px 34px;
+    }
+    p{
+        margin: 2px 2px;
+        padding: 2px 2px;
+    }
+    h1{
+        display: block;
+        margin: 73px auto;
+        width: 50%;
+    }
 }
